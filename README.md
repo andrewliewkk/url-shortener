@@ -2,9 +2,16 @@
 
 ## Getting Started
 
+1. Install Python packages
+
 ```
 pip install -r requirements.txt
+```
+
+2. Start FASTAPI Server
+
+```
 uvicorn app.main:app --reload
 ```
 
-Access localhost:8000
+3. Access localhost URL https://localhost:8000

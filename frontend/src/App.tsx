@@ -7,14 +7,14 @@ import $ from "jquery";
 const { Header, Footer, Sider, Content } = Layout;
 const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
-function App() {
+const App: React.FC = () => {
   const [urlInput, setUrlInput] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [success, setSuccess] = useState<string | null>(null);
   const [link, setLink] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const shortenURL = async () => {
+  const shortenURL = async (): Promise<void> => {
     setIsLoading(true);
     const endpoint = process.env.REACT_APP_BACKEND_ENDPOINT || "";
     const requestOptions = {
@@ -38,7 +38,7 @@ function App() {
       });
   };
 
-  const notifyCopy = () => {
+  const notifyCopy = (): void => {
     $(".noti").slideToggle();
     setTimeout(() => {
       $(".noti").slideToggle();
@@ -98,6 +98,6 @@ function App() {
       </Content>
     </Layout>
   );
-}
+};
 
 export default App;

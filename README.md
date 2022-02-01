@@ -1,4 +1,4 @@
-<div align="center"><img src="./Capture.PNG" width="300" height="300"></div>
+<div align="center"><img src="./Capture.PNG"></div>
 
 <div id="top"></div>
 <h3 align="center">URL-shortener with Python FASTAPI</h3>

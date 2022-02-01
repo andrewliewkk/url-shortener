@@ -1,17 +1,43 @@
-# URL-shortener with Python FASTAPI
+<div id="top"></div>
+<h3 align="center">URL-shortener with Python FASTAPI</h3>
+
+  <p align="center">
+    URL shortener web application using Python FASTAPI, React.Js & SQLite.
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://github.com/andrewliewkk/url-shortener/blob/[branch]/Capture.png?raw=true)
+
+This project was done for self practice and is meant to be deployed locally.
+
+### Built With
+
+- [React.js](https://reactjs.org/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-1. Install Python packages
+### Prerequisites
 
-```
-pip install -r requirements.txt
-```
+- Python PIP
+- npm
 
-2. Start FASTAPI Server
+### Frontend
 
-```
-uvicorn app.main:app --reload
-```
+1. `cd frontend`
+2. `npm i `
+3. `npm start`
 
-3. Access localhost URL https://localhost:8000
+### Backend
+
+1. `cd backend`
+2. `pip install -r requirements.txt`
+3. `uvicorn app.main:app --reload`
+
+- Access localhost URL https://localhost:3000

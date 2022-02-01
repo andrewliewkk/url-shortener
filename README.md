@@ -1,3 +1,5 @@
+<div align="center"><img src="Capture.png" width="90" height="90"></div>
+
 <div id="top"></div>
 <h3 align="center">URL-shortener with Python FASTAPI</h3>
 
@@ -9,8 +11,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://github.com/andrewliewkk/url-shortener/blob/main/Capture.PNG?raw=true)
 
 This project was done for self practice and is meant to be deployed locally.
 

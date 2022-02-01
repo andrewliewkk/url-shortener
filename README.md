@@ -10,7 +10,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/andrewliewkk/url-shortener/blob/[branch]/Capture.png?raw=true)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/andrewliewkk/url-shortener/blob/main/Capture.PNG?raw=true)
 
 This project was done for self practice and is meant to be deployed locally.
 
